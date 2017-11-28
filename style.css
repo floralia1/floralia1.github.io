@@ -1,0 +1,219 @@
+
+
+.navbar-floralia {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-floralia-brand img {
+  height: 50px;
+}
+
+.navbar-floralia .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.navbar-floralia-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-floralia-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.navbar-floralia-link {
+  color: #45171D;
+  font-size: 14px;
+}
+.navbar-floralia-link:hover {
+  color: #FFDEDE;
+  text-decoration: none;
+}
+
+
+.navbar-floralia-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-floralia-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-floralia-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-floralia-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+
+
+.description{
+  color:#971549;
+  
+  font-size: 30px;
+  font-family: Georgia;
+  margin-bottom: 4%;
+  width: 200;
+}
+
+.petittexte {
+  color: #45171D;
+    font-family: Georgia;
+}
+
+.banniere {
+  background: linear-gradient(135deg, rgba(56, 57, 59, 0.2) 0%, rgba(84, 82, 16, 0.4) 100%), 
+ url(https://static.pexels.com/photos/169190/pexels-photo-169190.jpeg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 150px 100px;
+  color: white;
+  font-family: Georgia;
+}
+
+
+.button {
+  background: #96D38C;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background: #D0F9B1;
+}
+
+.button-success {
+  background:#96D38C;
+}
+
+.button-success:hover {
+  background:#D0F9B1;
+
+}
+.button-block {
+  display: block;
+  text-align: center;
+  margin: 12px 0;
+}
+
+
+
+
+body {
+  font-family: Lucida;
+  font-color:#96D38C;
+  text-align: center;
+  
+}
+
+
+
+
+.illustration {
+   margin: 20px 0;
+
+  border-radius: 4px;
+  text-shadow: 0 0 10px black;
+    height: 175px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+
+
+
+.illustration-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  
+
+}
+.illustration-description h2 {
+  font-size: 24px;
+  font-family: Georgia;
+}
+.illustration-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background: #DFFCB5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.6);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
